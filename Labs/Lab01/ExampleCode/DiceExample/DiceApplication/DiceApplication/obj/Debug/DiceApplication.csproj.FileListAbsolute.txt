@@ -1,0 +1,6 @@
+C:\Unity\DiceApplication\DiceApplication\DiceApplication\bin\Debug\DiceApplication.exe.config
+C:\Unity\DiceApplication\DiceApplication\DiceApplication\bin\Debug\DiceApplication.exe
+C:\Unity\DiceApplication\DiceApplication\DiceApplication\bin\Debug\DiceApplication.pdb
+C:\Unity\DiceApplication\DiceApplication\DiceApplication\obj\Debug\DiceApplication.csprojResolveAssemblyReference.cache
+C:\Unity\DiceApplication\DiceApplication\DiceApplication\obj\Debug\DiceApplication.exe
+C:\Unity\DiceApplication\DiceApplication\DiceApplication\obj\Debug\DiceApplication.pdb
