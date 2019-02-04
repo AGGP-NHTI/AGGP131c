@@ -1,0 +1,25 @@
+Research Project - Grading Matrix
+
+I. Topic Defined
+	a. Has defined topic and is approved
+II. Resource Materials 
+	a. Resource Material #1
+	b. Resource Material #2
+	c. Resource Material #3
+	d. Resource Material #4
+	e. Resource Material #5
+	f. Resource from Catergory #1
+	g. Resource from Catergory #2
+	h. Resource from Catergory #3
+III. Code Examples 
+	a. Example Code From Research (From Resource Materials) 
+	b. Topic Demostration Code (Self-Written) 
+	c. Functionality of the Code (Self-Written)
+IV. Presentation 
+	a. Has Appropirate Presentation Material Slides
+	b. Talks About Topic well
+	c. Demostrates Topic Well. 
+------------------------------------------------------
+	TOTAL
+
+Professor's Comments
