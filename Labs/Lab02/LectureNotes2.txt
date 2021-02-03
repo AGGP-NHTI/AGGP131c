@@ -1,0 +1,61 @@
+Minimal Viable Product (MVP) 
+	What is the smallest thing we can create and it still be a product ( a game)
+
+	#1 The Technicaly Functional 
+		What we need to have a basic game (or Game Demo)
+	#2 Content Functional
+		What we need to ship on Steam
+
+Vertical Slice 
+	Complete Part of Game
+
+
+
+Death Match: 
+	* Game Rules 		(GameMode \ GameManager)
+	* Controllers 
+		* Players 	(PlayerController)
+		* Bots 		(AIController)
+	* Character Models 	(Pawn) - Inherited from Actor
+	* Items 		(Inherited from Actor)
+		* Weapons
+			Pistol
+			Sniper Rifle
+			Rocket Launcher
+		* Ammo
+			Pistol Ammo
+			Sniper Ammo
+			Rockets
+		* Armor 
+			Red Armor
+			Blue Armor
+			Yellow Armor
+		* Health
+			Jug of Health
+		* Powerups
+			Quad Damage 
+	* Pickups Base		(Inherited from Actor)
+		* Pickup Set Base
+	* Level\Maps		(Dependent on Engine) 
+		( Destructible Items ) 
+	* Spawn Points
+
+
+----- 
+Team Death Match - Inherit from Deathmatch 
+	* TDM Game Rules (Inherit from DM Game Rules)
+	* Team Spawn Points (inherit from Spawn Points)
+	* Team Specific Player Models (or player skins)
+
+
+CTF - Inherit from TDM
+	* CTF Rules - Inherit from TDM Rules
+	* Flag base
+		includes trigger\volumn for Flag Capture Zone
+	* Flags
+
+
+
+
+
+	

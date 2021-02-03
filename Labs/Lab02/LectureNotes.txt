@@ -1,0 +1,31 @@
+Composition: HAS Relationship
+	Something HAS something in it's class. 
+	A class has added a Vector3	
+
+Inheritance: IS Relationship
+	Something is another class. 
+	A Class inherits from another class. 
+
+
+
+Actor 
+	An Actor is Something that is in the Scene
+	Static Mesh
+	Particle System
+	"The Level" is special actor
+		- BSP Geometry 
+
+	An Actor Can take damage
+		The Child of Actor will determine how.
+
+   Pawn
+	This an actor that can be controlled. 
+	"Posession" is the Unreal System
+   Controller 
+	This is an Actor that can control Pawn 
+      PlayerControler 
+	This is class represents the Human player
+	This the class that asks for Input
+      AIController
+        This represents AI PLayer (bot)
+	This Class makes descions on its own. (BOT AI)	
