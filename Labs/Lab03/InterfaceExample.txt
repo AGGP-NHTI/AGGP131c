@@ -1,0 +1,22 @@
+private bool _AnythingRemoves = false;
+
+    // Public Interface : Get and Set Property
+    public bool AnythingRemoves
+    {
+        get { return _AnythingRemoves;  }
+
+        set { SetAnythingRemoves(value);  }
+
+    }
+
+    // Public Interface : Get & Set Methods
+    public bool GetAnythingRemoves()
+    {
+        return _AnythingRemoves;
+    }
+
+public bool SetAnythingRemoves(bool value)
+    {
+        _AnythingRemoves = value;
+        return true; 
+    }
