@@ -1,0 +1,35 @@
+States 
+  1. Enter (Do once) (Like Start or Awake)
+  2. Perform (What the State Does) (Like Update)
+  3. Transitions (Where does this state lead to and under what conditions) 
+  4. Exit (Do once)
+
+Transitions 
+  1. Automatic (Used mostly for once and move on)
+  2. Condition
+  3. Time (varient of Condition)
+
+Internal Values vs. External Input
+
+
+PWPawn States
+  - Active
+	(Enter) Do Setup 
+	(Perform)Do Living stuff 
+	(Transition) When Health drops below 0 go to Death State
+  - Death
+	(Enter) DO death stuff
+	(Transition) When Health drops below JibValue go to Jib State
+	(Transition) After 5 seconds in state, go to Derez
+  - Jib 
+	(Enter) Spawn jibs 
+	(Transition) go to Derez
+  - Derez 
+	(Peform) Remove as Appropriate
+
+
+LightBulb
+  - Light On
+  - Light Off
+  - Burnt Out\Broken\Non-functional
+
